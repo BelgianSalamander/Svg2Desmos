@@ -40,7 +40,7 @@ discord_cols = {
     'url(#paint4_linear)': '#5AC0C7'
 }
 
-colors.update(discord_cols)
+#colors.update(discord_cols)
 print(colors)
 
 def dist(x,y):
