@@ -32,15 +32,15 @@ colors = {
     '#000' : '#000000'
 }
 
-##discord_cols = {
-##    'url(#paint0_linear)': '#E59080',
-##    'url(#paint1_linear)': '#EDA778',
-##    'url(#paint2_linear)': '#DC8974',
-##    'url(#paint3_linear)': '#5AC0C7',
-##    'url(#paint4_linear)': '#5AC0C7'
-#}
+discord_cols = {
+    'url(#paint0_linear)': '#E59080',
+    'url(#paint1_linear)': '#EDA778',
+    'url(#paint2_linear)': '#DC8974',
+    'url(#paint3_linear)': '#5AC0C7',
+    'url(#paint4_linear)': '#5AC0C7'
+}
 
-#colors.update(discord_cols)
+colors.update(discord_cols)
 print(colors)
 
 def dist(x,y):
@@ -469,6 +469,6 @@ def negative(n):
         return str(n)
 
 if __name__ == "__main__":
-    root = ET.parse("logos/NASA.svg").getroot()
+    root = ET.parse("Shrey (2).svg").getroot()
     Desmos = Svg(root)
     Desmos.to_desmos()
